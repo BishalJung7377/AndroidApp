@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
 
-class SpinnerAvtivity : AppCompatActivity() {
+class Spinner : AppCompatActivity() {
 
     private val languages = arrayOf("Nepali","American","Indian","Russian")
     private lateinit var spinner: Spinner
@@ -34,7 +34,7 @@ class SpinnerAvtivity : AppCompatActivity() {
                 ){
                     val selectedItem= parent?.getItemAtPosition(position).toString()
                     Toast.makeText(
-                        this@SpinnerAvtivity,"Selected Item : $selectedItem",Toast.LENGTH_LONG
+                        this@Spinner,"Selected Item : $selectedItem",Toast.LENGTH_LONG
                     ).show()
                 }
 
