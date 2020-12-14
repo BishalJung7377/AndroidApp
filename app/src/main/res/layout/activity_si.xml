@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:context=".SiActivity"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/etPrinciple"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Principle"
+        />
+    <EditText
+        android:id="@+id/etTime"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time"
+        />
+    <EditText
+        android:id="@+id/etRate"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rate"
+        />
+
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Find SI"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Back To Calculate"
+        android:id="@+id/backCalculate"
+        />
+    <TextView
+        android:id="@+id/tvSI"
+        android:text="0"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
+
+
+
